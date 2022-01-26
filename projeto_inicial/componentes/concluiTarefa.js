@@ -1,6 +1,6 @@
-const BotaoConclui = () => { 
-    const botaoConclui = document.createElement('button')  
-    
+const BotaoConclui = () => {
+    const botaoConclui = document.createElement('button')
+
     botaoConclui.classList.add('check-button')
     botaoConclui.innerText = 'concluir'
 
@@ -19,4 +19,3 @@ const concluirTarefa = (evento) => {
 }
 
 export default BotaoConclui
-
